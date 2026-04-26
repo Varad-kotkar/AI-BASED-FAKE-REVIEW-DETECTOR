@@ -5,7 +5,7 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-blueviolet)
+![Contributions](https://img.shields.io/badge/Contributions-VIRAJ_PATHARE-SHUBHAM_DHAWALE-CHAITANYA_GHANGALE-blueviolet)
 
 ---
 
@@ -145,7 +145,13 @@ flowchart TD
 ## 👨‍💻 Authors
 
 * Varad Rajendra Kotkar
-* Team Members
+📧 kotkarvarad12@gmail.com
+Viraj Eknath Pathare
+📧 pathareviraj8@gmail.com
+Shubham Santosh Dhawale
+📧 sdhawale380@gmail.com
+Chaitanya Sudhir Ghangale
+📧 chaitanyaghangale0@gmail.com
 
 ---
 
