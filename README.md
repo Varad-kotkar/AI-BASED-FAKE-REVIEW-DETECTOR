@@ -1,25 +1,47 @@
-🧠 AI-Based Fake Review Detection System
-📌 Overview
 
-This project focuses on detecting fake reviews using Machine Learning models.
-It analyzes review text and classifies whether a review is genuine or fake based on patterns learned from real datasets.
+# 🧠 AI-Based Fake Review Detection System
 
-The system compares multiple ML models and selects the one with the best accuracy.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-blueviolet)
 
-🚀 Features
-Detect fake vs genuine reviews
-Uses real-world dataset for training
-Compares multiple ML models
-Displays accuracy of each model
-Shows Confusion Matrix visualization
-Simple and minimal project structure (exam-friendly)
-🛠️ Tech Stack
-Python
-Scikit-learn
-Pandas
-NumPy
-Matplotlib / Seaborn
-📂 Project Structure
+---
+
+## 📌 Overview
+
+This project detects fake reviews using Machine Learning models.
+It analyzes textual data and classifies reviews as **genuine** or **fake** using real datasets.
+
+The system compares multiple models and selects the one with the highest accuracy.
+
+---
+
+## 🚀 Features
+
+* Fake vs Genuine review classification
+* Real dataset-based training
+* Multiple ML model comparison
+* Best model selection
+* Confusion Matrix visualization
+* Minimal and exam-friendly structure
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Scikit-learn
+* Pandas
+* NumPy
+* Matplotlib
+
+---
+
+## 📂 Project Structure
+
+```
 AI-Fake-Review-Detection/
 │── dataset/
 │   └── reviews.csv
@@ -30,45 +52,104 @@ AI-Fake-Review-Detection/
 │
 │── README.md
 │── requirements.txt
-⚙️ Installation
-Clone the repository:
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
 git clone https://github.com/your-username/AI-Fake-Review-Detection.git
-Navigate to project folder:
 cd AI-Fake-Review-Detection
-Install dependencies:
 pip install -r requirements.txt
-▶️ How to Run
+```
+
+---
+
+## ▶️ Run Project
+
+```bash
 python main.py
-🧪 Machine Learning Models Used
-Logistic Regression
-Naive Bayes
-Support Vector Machine (SVM)
-Random Forest
+```
 
-The system automatically compares models and selects the best-performing one.
+---
 
-📊 Evaluation Metrics
-Accuracy
-Precision
-Recall
-F1 Score
-Confusion Matrix (visualized)
-📸 Output Example
-Model Accuracy Comparison
-Best Model Selection
-Confusion Matrix Graph
-❌ Removed Complexity (For Simplicity)
-No model.pkl saving
-No vectorizer.pkl
-No unnecessary files like features.py or predictor.py
-Lightweight and easy to explain in viva
-💡 Use Case
-E-commerce platforms
-Product review analysis
-Detecting spam or bot-generated reviews
-👨‍💻 Authors
-Varad Rajendra Kotkar
-Team Members
-📄 License
+## 🧪 Machine Learning Models Used
 
-This project is for academic and educational purposes.
+* Logistic Regression
+* Naive Bayes
+* Support Vector Machine (SVM)
+* Random Forest
+
+---
+
+## 📊 Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+
+---
+
+## 📈 System Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[Dataset: Reviews.csv] --> B[Data Preprocessing]
+    B --> C[Text Cleaning]
+    C --> D[Feature Extraction (TF-IDF)]
+    
+    D --> E1[Logistic Regression]
+    D --> E2[Naive Bayes]
+    D --> E3[SVM]
+    D --> E4[Random Forest]
+
+    E1 --> F[Model Evaluation]
+    E2 --> F
+    E3 --> F
+    E4 --> F
+
+    F --> G[Accuracy Comparison]
+    G --> H[Best Model Selection]
+    H --> I[Confusion Matrix Output]
+```
+
+---
+
+## 📸 Output
+
+* Accuracy comparison of models
+* Best model selection
+* Confusion matrix visualization
+
+---
+
+## ❌ Simplified for Academic Use
+
+* No `.pkl` model saving
+* No unnecessary files
+* Clean and minimal codebase
+
+---
+
+## 💡 Use Cases
+
+* E-commerce platforms
+* Review filtering systems
+* Spam detection
+
+---
+
+## 👨‍💻 Authors
+
+* Varad Rajendra Kotkar
+* Team Members
+
+---
+
+## 📄 License
+
+This project is for academic and educational purposes only.
+
