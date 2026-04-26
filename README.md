@@ -5,8 +5,7 @@
 ![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-Academic-lightgrey)
-![Contributions](https://img.shields.io/badge/Contributions-VIRAJ_PATHARE-SHUBHAM_DHAWALE-CHAITANYA_GHANGALE-blueviolet)
-
+![Contributions](https://img.shields.io/badge/Contributors-Viraj%20Pathare,%20Shubham%20Dhawale,%20Chaitanya%20Ghangale-blueviolet)
 ---
 
 ## 📌 Overview
