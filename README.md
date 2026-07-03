@@ -114,23 +114,7 @@ flowchart TD
     H --> I[Confusion Matrix Output]
 ```
 
----
 
-## 📸 Output
-
-* Accuracy comparison of models
-* Best model selection
-* Confusion matrix visualization
-
----
-
-## ❌ Simplified for Academic Use
-
-* No `.pkl` model saving
-* No unnecessary files
-* Clean and minimal codebase
-
----
 
 ## 💡 Use Cases
 
