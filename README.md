@@ -98,7 +98,6 @@ python main.py
 flowchart TD
     A[Dataset: Reviews.csv] --> B[Data Preprocessing]
     B --> C[Text Cleaning]
-    C --> D[Feature Extraction (TF-IDF)]
     
     D --> E1[Logistic Regression]
     D --> E2[Naive Bayes]
