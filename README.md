@@ -58,7 +58,7 @@ AI-Fake-Review-Detection/
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/AI-Fake-Review-Detection.git
+git clone https://github.com/Varad-kotkar/AI-BASED-FAKE-REVIEW-DETECTOR.git
 cd AI-Fake-Review-Detection
 pip install -r requirements.txt
 ```
